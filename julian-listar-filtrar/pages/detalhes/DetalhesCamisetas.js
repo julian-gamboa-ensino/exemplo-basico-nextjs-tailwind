@@ -45,7 +45,7 @@ export default function DetalhesCamisetas() {
           ) : (
             <div className="flex justify-center">
               <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-4 items-center">
-                {DetalhesCamisetas.map((DetalhesCamisetas) => (
+                {DetalhesCamisetas?.map((DetalhesCamisetas) => (
                   <div key={DetalhesCamisetas.id} className="bg-white rounded-lg overflow-hidden shadow-md">
                     <div className="flex flex-col md:flex-row bg-white shadow-md rounded p-4 md:p-8 my-4 justify-center items-center">
                       <div className="flex-1 text-center">
