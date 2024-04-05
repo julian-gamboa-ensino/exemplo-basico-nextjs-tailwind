@@ -1,7 +1,3 @@
-/*
-
-*/
-
 import Image from "next/image";
 
 
@@ -27,7 +23,7 @@ function convertColor(cor) {
   }
 }
 
-function Camiseta({ id, imagem, nome, preco, tamanhos, cores }) {
+function Camiseta({ id, imagem, nome, preco, tamanhos= [], cores }) {
   return (
     <div className="p-4 bg-white rounded shadow-lg w-full flex flex-col items-center justify-center">
 
@@ -43,7 +39,7 @@ function Camiseta({ id, imagem, nome, preco, tamanhos, cores }) {
       <p className="text-gray-500">Preço R$ : {preco}</p>
       <p className="text-gray-500">{tamanhos.join(', ')}</p>
       <div className="flex mt-2">
-        {cores.map((cor) => (
+        {cores?.map((cor) => (
           <div
             key={cor}
             className={`w-4 h-4 rounded-full mr-2 ${convertColor(cor)}`}

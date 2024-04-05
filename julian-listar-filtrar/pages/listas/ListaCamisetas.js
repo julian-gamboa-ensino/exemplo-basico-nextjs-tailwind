@@ -31,21 +31,21 @@ const ListaCamisetas = ({ filtros }) => {
       ) : (
         <>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {camisetas.map((camiseta) => (
-              <div key={camiseta.id} className="bg-white rounded-lg overflow-hidden shadow-md">
+            {camisetas?.map((camiseta) => (
+              <div key={camiseta?.id} className="bg-white rounded-lg overflow-hidden shadow-md">
 
                 <Camiseta 
-                id={camiseta.id} 
-                imagem={camiseta.imagem} 
-                nome={camiseta.nome} 
-                preco={camiseta.preco} 
-                tamanhos={camiseta.tamanhos} 
-                cores={camiseta.cores} />
+                id={camiseta?.id} 
+                imagem={camiseta?.imagem} 
+                nome={camiseta?.nome} 
+                preco={camiseta?.preco} 
+                tamanhos={camiseta?.tamanhos} 
+                cores={camiseta?.cores} />
                 
               </div>
             ))}
           </div>
-          {camisetas.length === 0 && !isLoading && <p className="text-center mt-4 text-orange-800">Nenhuma camiseta encontrada.</p>}
+          {camisetas?.length === 0 && !isLoading && <p className="text-center mt-4 text-orange-800">Nenhuma camiseta encontrada.</p>}
         </>
       )}
     </div>
