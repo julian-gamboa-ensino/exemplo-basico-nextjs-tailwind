@@ -1,13 +1,17 @@
 
-[Julian Gamboa](https://github.com/julian-gamboa-bahia){:target="_blank"}
++ [Julian Gamboa](https://github.com/julian-gamboa-bahia)
++ [veterano informático](https://julian-gamboa-bahia.github.io/bootcamps/bootcamps)
++ [O produto MVP   ](https://exemplo-basico-nextjs-tailwind.vercel.app/listas/ListarFiltrar)
++ [Desenvolvimento](https://ssd-2023-240gb----youtube.s3.us-west-2.amazonaws.com/lab_next_tailwind.pdf)
++ [vercel](https://vercel.com/juliangamboaensinos-projects/exemplo-basico-nextjs-tailwind )
++ Observando o código:
+  + function
+  + ssd
+  + Camiseta
++ [  ]( )
++ [  ]( )
++ [  ]( )
 
-<a href="https://www.w3schools.com" target="_blank">Abrir W3Schools</a>
------------------------------------------------------------------
-
-
-https://julian-gamboa-bahia.github.io/bootcamps/bootcamps
-
-https://exemplo-basico-nextjs-tailwind.vercel.app/listas/ListarFiltrar
 
 
 
