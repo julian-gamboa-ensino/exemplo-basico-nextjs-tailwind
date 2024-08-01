@@ -7,7 +7,7 @@ const camisetas = [
   {
     id: 1,
     imagem: 'https://ssd-2023-240gb----youtube.s3.us-west-2.amazonaws.com/Azul.jpeg',
-    nome: 'Camiseta 1',
+    nome: 'Gitlab',
     preco: 29.99,
     tamanhos: ['P', 'M', 'G'],
     cores: ['Azul', 'Verde', 'Laranja'],
@@ -15,7 +15,7 @@ const camisetas = [
   {
     id: 2,
     imagem: 'https://ssd-2023-240gb----youtube.s3.us-west-2.amazonaws.com/Verde.jpeg',
-    nome: 'Camiseta 2',
+    nome: 'Fofinhos',
     preco: 19.99,
     tamanhos: ['M', 'G'],
     cores: ['Azul', 'Verde', 'Amarelo'],
@@ -23,7 +23,7 @@ const camisetas = [
   {
     id: 3,
     imagem: 'https://ssd-2023-240gb----youtube.s3.us-west-2.amazonaws.com/Laranja.jpg',
-    nome: 'Camiseta 3',
+    nome: 'Nosito',
     preco: 39.99,
     tamanhos: ['P', 'M'],
     cores: ['Laranja', 'Azul'],
@@ -31,7 +31,7 @@ const camisetas = [
   {
     id: 4,
     imagem: 'https://ssd-2023-240gb----youtube.s3.us-west-2.amazonaws.com/Preto.jpeg',
-    nome: 'Camiseta 4',
+    nome: 'Chatbot',
     preco: 49.99,
     tamanhos: ['M', 'G', 'GG'],
     cores: ['Preto', 'Vermelho'],
@@ -39,7 +39,7 @@ const camisetas = [
   {
     id: 5,
     imagem: 'https://ssd-2023-240gb----youtube.s3.us-west-2.amazonaws.com/Laranja.jpg',
-    nome: 'Camiseta 5',
+    nome: 'Nosito',
     preco: 34.99,
     tamanhos: ['P', 'M', 'G', 'GG'],
     cores: ['Laranja', 'Preto'],
@@ -55,7 +55,7 @@ const camisetas = [
   {
     id: 7,
     imagem: 'https://ssd-2023-240gb----youtube.s3.us-west-2.amazonaws.com/Vermelho.jpeg',
-    nome: 'Camiseta 7',
+    nome: 'app',
     preco: 44.99,
     tamanhos: ['M', 'G', 'GG'],
     cores: ['Laranja', 'Preto', 'Vermelho'],
